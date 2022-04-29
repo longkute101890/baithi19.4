@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>demo</title>
+<link rel="stylesheet" href="../css/bootstrap.css">
+<link rel="stylesheet" href="../css/bootstrap.min.css">
+<script src="..//JS/jquery-3.6.0.min.js"></script>
+<script src="..//JS/bootstrap.min.js"></script>
+<script src="..//JS/dangki.js"></script>
+</head>
+
+<body>
+
+<div class="container">
+    <div class="container">
+        <header class="page-header">
+            <nav class="navbar navbar bg-info">
+                <div class="navbar-header col-sm-3 col-lg-3 col-md-3 col-xl-3 ">
+                    <a href="#"><img src="../img/LOGO.PNG" alt=""></a>
+                </div> 
+                <div class="navbar-header col-sm-9 col-lg-9 col-md-9 col-xl-9 text-center ">
+                    <h2>BỘ CÔNG THƯƠNG</h2>
+                    <h2>TRƯỜNG ĐẠI HỌC CÔNG NGHIỆP HỒ CHÍ MINH</h2>
+                    <h3>Đổi mới nâng tầm cao mới - Năng động hội nhập toàn cầu</h3>
+                </div>
+                <div class="navbar-header col-sm-12 col-lg-12 col-md-12 col-xl-12 text-center">
+                </div>
+            </nav>
+        <div class="col-xs-12">
+
+    </div>
+            <div class="col-xs-12">
+    <nav class="navbar navbar-expand-sm ">
+    <ul class="navbar nav">
+        <li class="navbar-item"><a class="navbar-link" href="#" style="margin-right: 20px;" id="btn1">Đăng nhập</a></li>
+        <li class="navbar-item"><a class="navbar-link" href="../html/DangKy.html" id="btn2">Đăng ký</a></li>
+    </ul>
+    </nav>
+    </div>
+    <div class="col-xs-12">
+    <h4 style="text-align: center; ">DANH SÁCH ĐĂNG KÝ LÀM CĂNG CƯỚC SINH VIÊN TRƯỜNG ĐHCN THÀNH PHỐ HỒ CHÍ MINH</h4>
+    <table class="table table-striped" role="table" id="danhSach">
+    <tr>
+        <th>STT</th>
+        <th>Họ tên</th>
+        <th>SCMND cũ</th>
+        <th>Quê quán</th>
+        <th>Email</th>
+        <th>Điện thoại</th>
+        <th>Ảnh đại diện</th>
+    </tr>
+    </table>
+    </div>
+    <footer>
+            <div class="col-xs-12">
+            <p style="text-align: center;">     Mã Sinh viên: Đặng Hoàng Long      Lớp: DHKTPM16GTT</p>
+    </div>
+    </footer>
+
+
+</div>
+<div class="modal fade" role="dialog" id="myModal">
+<div class="modal-dialog " style="margin-top: 10px;">
+<div class="modal-content">
+<div class="modal-header">
+<h2 class="text-left">THÔNG TIN CÁ NHÂN</h2>
+</div>
+<div class="modal-body">
+<form role="form" class="form-horizontal" style="margin-top: 10px;">
+
+<label for="Name" class="control-label col-xs-3">Họ tên</label>
+<div class="col-xs-9">
+<input type="text" id="Name" class="form-control">
+<span class="text-danger" id="tbName">*</span>
+</div>
+<label for="SCMNDC" class="control-label col-xs-3">SCMND cũ</label>
+<div class="col-xs-9" style="margin-bottom: 10px;">
+<input type="text" id="SCMNDC" class="form-control">
+<span class="text-danger" style="color: red;" id="tbSCMNDC">*</span>
+</div>
+<label for="QQ" class="control-label col-XS-3">Quê quán</label>
+<div class="col-xs-9">
+<input type="text" id="QQ" class="form-control">
+<span class="text-danger" style="color: red;" id="tbQQ">*</span>
+</div>
+<label for="EMAIL" class="control-label col-xs-3">Email</label>
+<div class="col-xs-9">
+<input type="text" id="EMAIL" class="form-control">
+<span class="text-danger" style="color: red;" id="tbEMAIL">*</span>
+</div>
+<label for="SDT" class="control-label col-xs-3">Số điện thoại</label>
+<div class="col-xs-9">
+<input type="text" id="SDT" class="form-control">
+<span class="text-danger" style="color: red;" id="tbSDT"></span>
+</div>
+<label for="ADD" class="control-label col-xs-3">Ảnh đại diện</label>
+<div class="col-xs-9">
+<input type="file" id="ADD" class="form-control">
+<span class="text-danger" style="color: red;" id="tbAdd">*</span>
+</div>
+<button class="btn btn-sucess btn-group-justified" id="Save" type="button" style="color: white; background-color:
+green; width: 100%;">
+Lưu
+</button>
+</form>
+</div>
+</div>
+</div>
+</div>
+</body>
+
+</html>

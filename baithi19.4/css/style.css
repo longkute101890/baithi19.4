@@ -1,0 +1,36 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+header{
+    background-color: aqua;
+}
+
+#top1{
+    
+    float: right;
+    
+}
+#top2{
+    position: absolute;
+    top: 1px;
+    left: 800px;
+}
+#top3{
+    position: absolute;
+    top: 30px;
+    right: 70px;
+    
+}
+#top4{
+    position: absolute;
+    top: 70px;
+    right: 300px;
+    
+}
+header img{
+    position: relative;
+    left: 70px;
+}
+
